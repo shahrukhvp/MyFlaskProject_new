@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Searched
+{% endblock %}
+
+{% block main %}
+    <div id="gen-info" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <h2>General Information</h2>
+                    <p>IP: {{ search.ip_str }} </p>
+                    <p>Region Code: {{ search.region_code }} </p>
+                    <p>Postal Code: {{ search.postal_code }} </p>
+                    <p>Country Code: {{ search.country_code }} </p>
+                    <p>City: {{ search.city }} </p>
+                    <p>DMA Code: {{ search.dma_code }} </p>
+                    <p>Last Update: {{ search.last_update }} </p>
+                    <p>Organization: {{ search.org }} </p>
+                    <p>Country Name: {{ search.country_name }} </p>
+                    <p>Tags: {{ search.tags }} </p>
+                    <p>Area Code: {{ search.area_code }} </p>
+                    <p>Latitude: {{ search.latitude }} </p>
+                    <p>Longitude: {{ search.longitude }} </p>
+                    <p>Domains: {{ search.domains }} </p>
+                    <p>OS: {{ search.os }} </p>
+                    <p>ISP: {{ search.isp }} </p>
+                    <p>Ports: {{ search.ports }} </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <h2>Vulnerabilities</h2>
+                    <p>IP: {{ search.ip_str }} </p>
+                    <p>Region Code: {{ search.region_code }} </p>
+                    <p>Postal Code: {{ search.postal_code }} </p>
+                    <p>Country Code: {{ search.country_code }} </p>
+                    <p>City: {{ search.city }} </p>
+                    <p>DMA Code: {{ search.dma_code }} </p>
+                    <p>Last Update: {{ search.last_update }} </p>
+                    <p>Organization: {{ search.org }} </p>
+                    <p>Country Name: {{ search.country_name }} </p>
+                    <p>Tags: {{ search.tags }} </p>
+                    <p>Area Code: {{ search.area_code }} </p>
+                    <p>Latitude: {{ search.latitude }} </p>
+                    <p>Longitude: {{ search.longitude }} </p>
+                    <p>Domains: {{ search.domains }} </p>
+                    <p>OS: {{ search.os }} </p>
+                    <p>ISP: {{ search.isp }} </p>
+                    <p>Ports: {{ search.ports }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
